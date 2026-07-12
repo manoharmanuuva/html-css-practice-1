@@ -1,0 +1,64 @@
+                .thumbnail{
+                    width: 100%;
+                    
+                }
+                
+               
+                .box{
+                    width:100%;
+                    display: inline-block;
+                   
+                   
+                    
+                }
+                .grid{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr 1fr ;
+                    row-gap:20px;
+                    column-gap: 15px;
+                    
+                }
+                .thumb {
+                    margin-bottom: 15px;
+                    position: relative;
+                }
+
+                .pro-text{
+                    display:grid;
+                    grid-template-columns: 56px 1fr;
+                    column-gap: 10px;
+                }
+                .pro{
+                    width:100%;
+                    border-radius: 40px;
+                }
+                .text{
+                     font-family: "Roboto",Arial;                
+                }
+                .p1{
+                    margin-top: 0;
+                     margin-bottom: 10px;
+                    font-weight:700;
+                    font-size: 13px;
+                }
+                .p2,
+                .p3{
+                    margin-top: 0;
+                    font-size: 13px;
+                    margin-bottom: 6px;
+                }
+                .time{
+                    font-family: "Roboto",Arial;  
+                    background-color: black;
+                    color: white;
+                    position:absolute;
+                    right:10px;
+                    bottom: 10px;
+                    border-radius: 2px;
+                    padding-left: 2px;
+                    padding-bottom: 1px;
+                    padding-right: 2px;
+                    padding-top:1px;
+                   
+
+                }
